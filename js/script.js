@@ -7,15 +7,18 @@ function question(event){
 
     console.log(days);
 
+    var msg1 = "10/10 correct answer";
+    var msg2 = "0/0 wrong answer";
+
     if (days ==="Monday"){
 
-        document.getElementById("q1answer").innerHTML ="10/10 correct answer";
+        document.getElementById("q1Answer").innerHTML =msg1;
 
     }
 
     else{
 
-        document.getElementById("q1answer").innerHTML ="0/0 wrong answer";
+        document.getElementById("q1Answer").innerHTML =msg2;
     }
 
 
